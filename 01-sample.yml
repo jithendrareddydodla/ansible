@@ -15,5 +15,3 @@
     - name: Task1 in play2
       ansible.builtin.debug:
         msg: Task1 in play2
-
-
