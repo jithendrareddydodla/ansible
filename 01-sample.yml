@@ -6,8 +6,8 @@
         msg: Task1 in play1
 
     - name: Task2 in play1
-        ansible.builtin.debug:
-          msg: Task2 in play1
+      ansible.builtin.debug:
+        msg: Task2 in play1
 
 - name: play2
   hosts: all
